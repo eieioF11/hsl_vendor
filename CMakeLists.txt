@@ -7,7 +7,7 @@ find_package(ament_cmake REQUIRED)
 include(ExternalProject)
 ExternalProject_Add(ThirdParty-HSL
   GIT_REPOSITORY  https://github.com/eieioF11/ThirdParty-HSL.git
-  GIT_TAG         1.0.0
+  GIT_TAG         2.0.0
   BUILD_IN_SOURCE   YES
   CONFIGURE_COMMAND ./configure --prefix=${CMAKE_CURRENT_BINARY_DIR}/ThirdParty-HSL_install
   BUILD_COMMAND     make
